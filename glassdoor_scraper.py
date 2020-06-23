@@ -5,7 +5,7 @@ Created on Mon Jun 22 17:20:39 2020
 
 @author: rodrigomarques
 
-## WEB SCRAPING - SOURCE: https://github.com/arapfaik/scraping-glassdoor-selenium/blob/master/glassdoor%20scraping.ipynb
+## WEB SCRAPING - SOURCE: https://github.com/arapfaik/scraping-glassdoor-selenium
 Some modifications made to match portuguese glassdoor, but scraping salafy of US because the br page doesnt show the salary range
 """
 
