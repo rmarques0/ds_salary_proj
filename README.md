@@ -17,7 +17,7 @@
 * Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 
-# Web Scraping
+# [Web Scraping](https://github.com/rmarques0/ds_salary_proj/blob/master/glassdoor_scraper.py)
 
 Tweaked the web scraper github repo (above) to scrape 1000 job postings from 'glassdoor.com'. I used only the job positions in US only becouse other countries as Brazil didn't have the info about salary estimative. With each job, we got the following:
 
@@ -37,7 +37,7 @@ Revenue
 Competitors
 
 
-# Data Cleaning
+# [Data Cleaning](https://github.com/rmarques0/ds_salary_proj/blob/master/data_cleaning.py)
 
 After scraping the data, it needed to be cleaned up so that it was usable for our model. 
 Made the following changes and created the following variables:
@@ -60,7 +60,7 @@ Column for simplified job title and Seniority
 Column for description length
 
 
-# EDA
+# [EDA](https://github.com/rmarques0/ds_salary_proj/blob/master/data_eda.ipynb)
 
 Looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
@@ -74,7 +74,7 @@ DS Jobs by State:
 ![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/positions_by_state.png "Jobs by State: ")
  
  
-# Model Building
+# [Model Building](https://github.com/rmarques0/ds_salary_proj/blob/master/model_bilding.py)
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
@@ -87,7 +87,7 @@ Lasso Regression – Because of the sparse data from the many categorical variab
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 
-# Model performance
+# [Model performance](https://github.com/rmarques0/ds_salary_proj/blob/master/model_bilding.py)
 
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
@@ -96,7 +96,7 @@ Linear Regression: MAE = 18.86
 Ridge Regression: MAE = 19.67
 
 
-# Productionization
+# [Productionization](https://github.com/rmarques0/ds_salary_proj/tree/master/FlaskAPI)
 
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
 
