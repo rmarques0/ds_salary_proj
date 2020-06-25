@@ -101,6 +101,8 @@ mean_absolute_error(y_test,tpred_rf)
 
 mean_absolute_error(y_test,(tpred_lm+tpred_rf)/2)
 
+
+# PICKLE MODEL
 import pickle
 pickl = {'model': gs.best_estimator_}
 pickle.dump( pickl, open( 'model_file' + ".p", "wb" ) )
