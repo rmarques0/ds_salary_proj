@@ -65,16 +65,13 @@ Column for description length
 Looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
 Salary by Job Title: 
-![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/salary_by_job_title.png "Salary by Job Title ")
+![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/salary_by_job_title.png "Salary by Job Title: ")
 
 Correlation heatmap: 
 ![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/correlarion_heatmap.png "Correlation heatmap: ")
 
-Jobs by State: 
-![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/positions_by_state.png "Jobs by State ")
-
-Salary by Job Title: 
-![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/salary_by_job_title.png "Salary by Job Title ")
+DS Jobs by State: 
+![alt text](https://github.com/rmarques0/ds_salary_proj/blob/master/positions_by_state.png "Jobs by State: ")
  
  
 # Model Building
